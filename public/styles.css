@@ -1,9 +1,16 @@
+html {
+  background-color: darkslategrey;
+  border: 1px solid red;
+}
 body {
   font-size: 120%;
   font-family: Arial;
+  background-color: #bebebe;
+  padding: 30px;
 }
 
-button, input {
+button,
+input {
   font-size: 100%;
   font-family: Arial;
 }
@@ -12,7 +19,8 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -48,4 +56,12 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+#t-name {
+  width: 100px;
+}
+
+#t-amount {
+  width: 100px;
 }
